@@ -1,18 +1,30 @@
 import React from "react"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Container,  Row, Col} from "react-bootstrap"
+import Form from "../form"
 
 function Login(){
 
     return<div>
 
-       <h1>Welcome to Asurdly</h1> 
+<Container>
+  <Row>
+    <Col> 
+    
+    <img src="./images/pablo-sign-in 1.svg"></img>
+    
+    
+    
+    
+    </Col>
+    <Col>
+    <Form />
+    
+    </Col>
+  </Row>
 
-       <form action="">
-           <input type="text" name="" placeholder="First Name" id=""/>
-
-           <input type="text" placeholder="Last Name" name="" id=""/>
-
-           <button>Login</button>
-       </form>
+  </Container>
+      
     </div>
 }
 
