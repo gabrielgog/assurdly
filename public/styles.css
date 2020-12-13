@@ -1,0 +1,110 @@
+body{
+
+    width: 100%;
+
+    font-family: 'PT Sans', sans-serif;
+
+}
+
+
+.Header{
+    background-color: white;
+
+    margin: 80px;
+}
+
+
+.login-form h1{
+
+    margin-top: 25px;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 40px;
+    line-height: 55px;
+    /* identical to box height */
+    
+    
+    color: #213F7D;
+
+}
+
+.login-form p{
+    color: gray;
+    margin-bottom:10%;
+    font-size: 1.2rem;
+}
+
+
+
+
+.login-form Button{
+
+    width: 30rem;
+    margin-top: 7%;
+    background:#39CDCC;
+    border: solid white;
+    border-radius: 8px;
+    height: 48px;
+
+
+
+}
+
+.login-form .forgot-password{
+    color: #39cdcc;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+.login-img img{
+    position: absolute;
+    right: 19rem;
+
+}
+
+
+
+
+.dashboard{
+  position: absolute;
+width: 283px;
+height: 80rem;
+left: 0px;
+top: 9rem;
+bottom: 0px;
+padding: 2%;
+color: gray;
+line-height: 2.3rem;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+
+
+
+/* icons Style */
+
+
+
+
+
+
+/* user_tools style */
+
+
+
+.user-tools{
+
+    background: #FFFFFF;
+border: 1px solid rgba(33, 63, 125, 0.06);
+box-sizing: border-box;
+box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+border-radius: 4px;
+
+margin: 3%;
+padding-left: 5%;
+width:;
+}

@@ -1,14 +1,26 @@
 import React from "react"
+import { BrowserRouter} from 'react-router-dom';
+
 import ReactDOM from "react-dom"
-import Login from "./components/login"
-import Header from "./header"
+import Header from "./components/header"
+import App from "./app"
 
 ReactDOM.render(
 
 <div>
+  <BrowserRouter>
   <Header />
 
-  <Login />
+  
+
+  <App />
+
+
+
+
+  
+  </BrowserRouter>
+
 
 </div>,
   

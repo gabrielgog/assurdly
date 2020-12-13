@@ -1,15 +1,13 @@
 import React from "react"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Container,  Row, Col} from "react-bootstrap"
-import Form from "../form"
+import Form from "./form"
 
 function Login(){
 
-    return<div>
-
-<Container>
+    return <Container>
   <Row>
-    <Col> 
+    <Col  className="usr-login" className="login-img"> 
     
     <img src="./images/pablo-sign-in 1.svg"></img>
     
@@ -17,15 +15,19 @@ function Login(){
     
     
     </Col>
-    <Col>
+    <Col >
     <Form />
     
     </Col>
   </Row>
 
   </Container>
+
+
+
+
       
-    </div>
+  
 }
 
 export default Login;
