@@ -1,14 +1,14 @@
 import React from "react"
 
 
-function icons(){
+function icons(pros) {
 
     return <div>
 
 
-        <img src="./images/icons/arrow.png" alt=""/>
+        <img src="./images/icons/arrow.png" alt="" />
 
-        <img   src="/images/icons/dashboard.svg" />
+        <img src="/images/icons/dashboard.svg" />
 
 
 

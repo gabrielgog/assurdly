@@ -12,18 +12,26 @@ function dashboard(){
 
 
 
-<h5>Switch Organization</h5>
+<h5>
+   <img src="./images/icons/switch_org.svg"/> Switch Organization
+   <img className="arrow-img" src="./images/icons/arrow.png"/></h5>
 </div>
 
+<br></br>
 
 
-    <h5>Dashboard</h5>
 
-    <p>Customers</p>
-     <p>Users</p>
-     <p>Guarantors</p>
-     <p>Loans</p>
-    <p>Savings</p>
+ 
+    <p>
+        <img src="./images/icons/dashboard.svg" alt=""/> Dashboard</p>
+        <p> Users</p>
+    <p>
+       <img  src="./images/icons/grantor.svg" alt=""/> Customers</p>
+     
+     <p>
+     <img src="./images/icons/grantor.svg" alt=""/> Guarantors</p>
+     <p> <img  width="4rem" src="./images/icons/loans.png"/> Loans</p>
+    <p> Savings</p>
     <p>Loan Request</p>
     <p>Whitelisst</p>
     <p>Karma</p>
