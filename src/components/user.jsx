@@ -9,6 +9,7 @@ import Table from "./table"
 
 
 
+
 function User(){
 
     return <div>
@@ -20,7 +21,10 @@ function User(){
 <UserT  />
 
 
+
 <Table />
+
+
 
    
     
